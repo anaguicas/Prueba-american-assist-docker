@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+<head>
+	<link rel="stylesheet" href="estilos.css" type="text/css" />
+    <title>CopyRigth</title>
+</head>
+<body>
+    <h2>Countries</h2>
+    <ul>
+        {% for countries in country_list %}
+            <li>{{ countries.name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
