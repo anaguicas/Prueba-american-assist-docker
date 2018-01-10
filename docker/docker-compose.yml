@@ -1,0 +1,11 @@
+version: '3'
+services:
+    american:
+        container_name: american
+        image: python:3.5
+        ports: 
+            - "8000:8000"
+        volumes:
+            - ../:/web
+        command: sh -c "cd /web && pip install -r requirements.txt && python manage.py runserver"
+        restart: always

@@ -3,6 +3,22 @@
 * Python 3.5
 * Python Virtualenv
 
+## Docker
+
+Requerimientos al usar Docker:
+
+* [Docker](https://docs.docker.com/engine/installation/)
+* [Docker Compose](https://docs.docker.com/compose/install/)
+
+```bash
+cd docker/
+docker-compose up
+```
+
+Url: `http://localhost:8000/API/countries/`
+
+## Local
+
 ### Virtualenv (En linux)
 
 #### Instalación
